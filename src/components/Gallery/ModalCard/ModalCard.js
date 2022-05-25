@@ -37,7 +37,7 @@ export default function ModalCard({ data }) {
         component={'img'}
         alt={data.user?.name}
         height={columns >= 3 ? 500 : '300'}
-        image={data.urls?.thumb}
+        image={data.urls?.regular}
         sx={{ width: '100%', objectFit: 'cover' }}
       />
       <CardContent>

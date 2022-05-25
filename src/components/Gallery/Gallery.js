@@ -49,8 +49,8 @@ export default function Gallery() {
               onClick={() => handleImageClick(item)}>
               <Image
                 style={{ borderRadius: '8px' }}
-                src={`${item.urls?.small}`}
-                srcSet={`${item.urls?.small}`}
+                src={`${item.urls?.regular}`}
+                srcSet={`${item.urls?.regular}`}
                 alt={item.user?.name}
                 duration={3000}
                 easing='cubic-bezier(0.7, 0, 0.6, 1)'
