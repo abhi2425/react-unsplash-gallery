@@ -113,7 +113,7 @@ export default function Gallery() {
   return (
     <Box sx={{ px: columns > 2 ? 15.25 : 10, py: 3.5 }}>
       <ImageList variant='masonry' cols={columns} gap={20}>
-        {renderPhotos.length > 0 ? (
+        {renderPhotos?.length > 0 ? (
           renderPhotos
         ) : (
           <Typography
